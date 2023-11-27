@@ -2,12 +2,11 @@
 	String sql = "SELECT * FROM customer WHERE (cust_id = ? )";
 	pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1,cust_id);
-		rset = pstmt.excuteQuery();
+		rset = pstmt.executeQuery();
 		
 	if(!rset.isBeforeFirst()){
-		out.print("<script>alert('존재하지 않는 아이디입니다!!');"
-		 + "history.back();"
-		 + "</script>);
+		out.print("<script>alert('존재하지 않는 아이디입니다!!'); history.back(); </script>");
+		
 	}
 	
 	rset.next();

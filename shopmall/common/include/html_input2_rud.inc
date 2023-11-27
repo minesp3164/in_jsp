@@ -30,8 +30,10 @@
 </tr>
 <tr>
 	<th>성 &nbsp; 별 &nbsp;</th>
-	<td><input type="radio" name="cust_gender" value ="M" disabled> 남자 &nbsp;
-	<input type="radio" name="cust_gender" value ="F" disabled> 여자</td>
+	<td>
+		<input type="radio" name="cust_gender" value ="M" disabled> 남자 &nbsp;
+		<input type="radio" name="cust_gender" value ="F" disabled> 여자
+	</td>
 </tr>
 
 <tr>
