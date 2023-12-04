@@ -10,13 +10,13 @@
 	}
 	
 	rset.next();
-	cust_id = reset.getString("cust_id");
-	String cust_pw = reset.getString("cust_pw");
-	String cust_name = reset.getString("cust_name");
-	String custTelNo = reset.getString("custTelNo");
-	String cust_addr = reset.getString("cust_addr");
-	String cust_grnder = reset.getString("cust_gender");
-	String cust_email = reset.getString("cust_email");
-	String cust_join_date = reset.getString("cust_join_date");
+	cust_id = rset.getString("cust_id");
+	String cust_pw = rset.getString("cust_pw");
+	String cust_name = rset.getString("cust_name");
+	String custTelNo = rset.getString("custTelNo");
+	String cust_addr = rset.getString("cust_addr");
+	String cust_gender = rset.getString("cust_gender");
+	String cust_email = rset.getString("cust_email");
+	String cust_join_date = rset.getString("cust_join_date");
 
 %>

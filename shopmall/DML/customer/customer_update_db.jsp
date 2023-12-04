@@ -3,7 +3,7 @@
 
 <%@ page import="java.sql.*" %>
 <%@ page import="dbconnclose.*" %>
-<% request.setCharacterEncoding("UTF-8") %>
+<% request.setCharacterEncoding("UTF-8"); %>
 <!DOCTYPE html>
 <html>
 <head>

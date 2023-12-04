@@ -1,4 +1,3 @@
-
 <tr>
 	<th><span class="mmsg_red">*</span>아 이 디</th>
 	<td><input type="text" name="cust_id" size="10" maxlength="10" value="<%=cust_id% > readonly>
@@ -30,18 +29,18 @@
 	//문자열 내부 " 포함(\")
 	String[] cust_tel_no = custTelNo.split("-",3);
 	if(cust_tel_no[0].equals("010")){
-		out.print("<option selected value=\ "010\">010</option>");
+		out.print("<option selected value=\ '010\'>010</option>");
 	}else if(cust_tel_no[0].equals("011")){
-	out.print("<option selected value=\ "011\">011</option>");
+	out.print("<option selected value=\ '011\'>011</option>");
 	}else if(cust_tel_no[0].equals("016")){
-	out.print("<option selected value=\ "016\">016</option>");
+	out.print("<option selected value=\ '016\'>016</option>");
 	}else if(cust_tel_no[0].equals("017")){
-	out.print("<option selected value=\ "017\">017</option>");
+	out.print("<option selected value=\ '017\''>017</option>");
 	}else if(cust_tel_no[0].equals("018")){
-	out.print("<option selected value=\ "018\">018</option>");
+	out.print("<option selected value=\ '018\'>018</option>");
 	}else if(cust_tel_no[0].equals("019")){
-	out.print("<option selected value=\ "019\">019</option>");
-	}else{out.print("<option selected value=\ "\">서비스 구분</option>");}
+	out.print("<option selected value=\ '019\'>019</option>");
+	}else{out.print("<option selected value='\'>서비스 구분</option>");}
 %>		
 		
 		</select>-
